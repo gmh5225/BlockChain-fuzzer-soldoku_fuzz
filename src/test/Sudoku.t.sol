@@ -9,9 +9,9 @@ import "../Sudoku.sol";
 
 contract ContractTest is DSTest {
 	Sudoku s;
-    Vm vm = Vm(HEVM_ADDRESS);
+	Vm vm = Vm(HEVM_ADDRESS);
 
-    function setUp() public {
+	function setUp() public {
 		s = new Sudoku();
 	}
 
